@@ -1,0 +1,121 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Gotham', sans-serif;
+  background: #d5d5d5;
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+a:hover{
+  color: red;
+}
+
+h2{
+  padding: 20px 0px 20px 0;
+}
+
+h3{
+  padding: 20px 0px 20px 0;
+}
+
+.encabezado {
+  padding: 30px;
+  text-align: center;
+  background:#1d1e47;
+}
+
+.encabezado h1 {
+  font-size: 35px;
+  color: white;
+  margin: 20px;
+}
+
+#nombre{
+  font-family: 'Gotham Light', sans-serif;
+}
+
+#apellido{
+  font-family: 'Gotham Black', sans-serif;
+}
+.encabezado h2{
+  font-family: 'Gotham Light', sans-serif;
+  color:white;
+  font-size: 20px;
+}
+
+#perfil{
+  width: 250px; 
+  height: 250px;
+  object-fit: cover;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 100%;
+}
+ul{
+  padding: 0px 20px;
+}
+ol{
+  display: list-item;
+  list-style-type: disc;
+  padding: 10px 0px 10px 0px;
+}
+
+.columna-izquierda {
+  float: left;
+  width: 25%;
+  justify-content: left;
+  background-color: #d5d5d5;
+}
+
+/* Right column */
+.columna-derecha {
+  float: left;
+  width: 75%;
+  background-color: #d5d5d5;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.fila:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #1d1e47;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
